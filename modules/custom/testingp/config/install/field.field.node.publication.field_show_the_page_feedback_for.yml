@@ -1,0 +1,22 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_show_the_page_feedback_for
+    - node.type.publication
+id: node.publication.field_show_the_page_feedback_for
+field_name: field_show_the_page_feedback_for
+entity_type: node
+bundle: publication
+label: 'Show the Page Feedback form'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

@@ -1,0 +1,20 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_page_updates_d7_migration_
+    - node.type.publication
+  module:
+    - text
+id: node.publication.field_page_updates_d7_migration_
+field_name: field_page_updates_d7_migration_
+entity_type: node
+bundle: publication
+label: 'Page Updates (D7 Migration)'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

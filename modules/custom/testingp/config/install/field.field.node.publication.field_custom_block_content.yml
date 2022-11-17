@@ -1,0 +1,20 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_custom_block_content
+    - node.type.publication
+  module:
+    - text
+id: node.publication.field_custom_block_content
+field_name: field_custom_block_content
+entity_type: node
+bundle: publication
+label: 'Custom Block Content'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long
