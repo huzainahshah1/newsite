@@ -1,0 +1,16 @@
+name: testingp
+type: module
+core_version_requirement: '^8.9 || ^9'
+dependencies:
+  - color_field
+  - datetime
+  - field
+  - link
+  - menu_ui
+  - node
+  - path
+  - text
+  - user
+  - views
+package: newsite
+core_incompatible: false
