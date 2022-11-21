@@ -1,0 +1,28 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_content_owner
+    - node.type.publications
+    - taxonomy.vocabulary.my_test_vocab
+id: node.publications.field_content_owner
+field_name: field_content_owner
+entity_type: node
+bundle: publications
+label: 'Content Owner'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      my_test_vocab: my_test_vocab
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

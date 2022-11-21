@@ -1,0 +1,24 @@
+name: newsite
+recipe: drupal9
+domain: newsite.app.lndo.site
+config:
+  webroot: .
+  php: 8.1
+  via: apache
+  database: mysql:5.7
+  drush: 11.1.1
+  xdebug: true
+  config:
+    php: .lando/php/php.ini
+services:
+  appserver:
+    composer_version: 2.1.14
+    overrides:
+      environment:
+        PHP_IDE_CONFIG: "serverName=localhost"
+  pma:
+    type: phpmyadmin:5.0
+    hosts: [ database ]
+proxy:
+  pma:
+    - localhost

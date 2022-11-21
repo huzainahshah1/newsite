@@ -1,0 +1,12 @@
+name: 'Month Year Field'
+type: module
+description: 'Provide a Month-Year field type'
+core_version_requirement: ^8 || ^9
+package: 'Fields'
+dependencies:
+  - drupal:jquery_ui_datepicker
+
+# Information added by Drupal.org packaging script on 2020-10-10
+version: '2.0.1'
+project: 'month_year'
+datestamp: 1602335249

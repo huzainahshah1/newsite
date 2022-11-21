@@ -1,0 +1,20 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.taxonomy_term.field_languages
+    - taxonomy.vocabulary.country_language
+  module:
+    - options
+id: taxonomy_term.country_language.field_languages
+field_name: field_languages
+entity_type: taxonomy_term
+bundle: country_language
+label: Languages
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

@@ -1,0 +1,93 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.publications.body
+    - field.field.node.publications.field_author
+    - field.field.node.publications.field_category
+    - field.field.node.publications.field_collapse_related_content_b
+    - field.field.node.publications.field_collapse_useful_resources_
+    - field.field.node.publications.field_content_colour
+    - field.field.node.publications.field_content_owner
+    - field.field.node.publications.field_custom_block_content
+    - field.field.node.publications.field_custom_block_title
+    - field.field.node.publications.field_enable_jump_links_menu
+    - field.field.node.publications.field_end_date
+    - field.field.node.publications.field_exclude_from_latest_conten
+    - field.field.node.publications.field_exclude_from_latest_news_p
+    - field.field.node.publications.field_exclude_from_most_popular
+    - field.field.node.publications.field_first_published
+    - field.field.node.publications.field_hide_another_format_block
+    - field.field.node.publications.field_include_in_bulletin_daily_
+    - field.field.node.publications.field_include_in_bulletin_indivi
+    - field.field.node.publications.field_include_in_bulletin_weekly
+    - field.field.node.publications.field_meta_tags
+    - field.field.node.publications.field_page_feedback
+    - field.field.node.publications.field_page_updates_d7_migration_
+    - field.field.node.publications.field_parent_page
+    - field.field.node.publications.field_publication_category
+    - field.field.node.publications.field_read_next
+    - field.field.node.publications.field_read_next_multiple_
+    - field.field.node.publications.field_read_previous
+    - field.field.node.publications.field_related_content
+    - field.field.node.publications.field_related_content_title
+    - field.field.node.publications.field_show_on_megamenu
+    - field.field.node.publications.field_useful_resources
+    - field.field.node.publications.field_useful_resources_title
+    - field.field.node.publications.field_weight
+    - node.type.publications
+  module:
+    - text
+    - user
+id: node.publications.teaser
+targetEntityType: node
+bundle: publications
+mode: teaser
+content:
+  body:
+    type: text_summary_or_trimmed
+    label: hidden
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_author: true
+  field_category: true
+  field_collapse_related_content_b: true
+  field_collapse_useful_resources_: true
+  field_content_colour: true
+  field_content_owner: true
+  field_custom_block_content: true
+  field_custom_block_title: true
+  field_enable_jump_links_menu: true
+  field_end_date: true
+  field_exclude_from_latest_conten: true
+  field_exclude_from_latest_news_p: true
+  field_exclude_from_most_popular: true
+  field_first_published: true
+  field_hide_another_format_block: true
+  field_include_in_bulletin_daily_: true
+  field_include_in_bulletin_indivi: true
+  field_include_in_bulletin_weekly: true
+  field_meta_tags: true
+  field_page_feedback: true
+  field_page_updates_d7_migration_: true
+  field_parent_page: true
+  field_publication_category: true
+  field_read_next: true
+  field_read_next_multiple_: true
+  field_read_previous: true
+  field_related_content: true
+  field_related_content_title: true
+  field_show_on_megamenu: true
+  field_useful_resources: true
+  field_useful_resources_title: true
+  field_weight: true

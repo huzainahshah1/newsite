@@ -1,0 +1,12 @@
+libraries.jquery.monthpicker:
+  js:
+    /libraries/jquery.mtz.monthpicker/jquery.mtz.monthpicker.js: {}
+  dependencies:
+    - core/jquery
+month_year:
+  js:
+    js/month_year.js: {}
+  dependencies:
+    - month_year/libraries.jquery.monthpicker
+    - core/drupalSettings
+    - jquery_ui_datepicker/datepicker

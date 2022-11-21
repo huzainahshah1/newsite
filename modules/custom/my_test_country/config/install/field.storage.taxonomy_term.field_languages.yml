@@ -1,0 +1,32 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - options
+    - taxonomy
+id: taxonomy_term.field_languages
+field_name: field_languages
+entity_type: taxonomy_term
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: English
+      label: English
+    -
+      value: Spanish
+      label: Spanish
+    -
+      value: French
+      label: French
+    -
+      value: Urdu
+      label: Urdu
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

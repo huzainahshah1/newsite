@@ -1,0 +1,11 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - workflows.workflow.editorial
+  module:
+    - content_moderation
+id: country_editor
+label: 'Country Editor'
+weight: 4
+is_admin: null

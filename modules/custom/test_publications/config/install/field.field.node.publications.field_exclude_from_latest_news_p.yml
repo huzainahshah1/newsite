@@ -1,0 +1,22 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_exclude_from_latest_news_p
+    - node.type.publications
+id: node.publications.field_exclude_from_latest_news_p
+field_name: field_exclude_from_latest_news_p
+entity_type: node
+bundle: publications
+label: 'Exclude From Latest News/Publications/Data Hub'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

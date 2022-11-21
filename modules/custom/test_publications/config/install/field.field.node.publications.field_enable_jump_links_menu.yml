@@ -1,0 +1,22 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_enable_jump_links_menu
+    - node.type.publications
+id: node.publications.field_enable_jump_links_menu
+field_name: field_enable_jump_links_menu
+entity_type: node
+bundle: publications
+label: 'Enable Jump links menu'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

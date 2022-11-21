@@ -1,0 +1,14 @@
+name: test_publications
+type: module
+core_version_requirement: '^8.9 || ^9'
+dependencies:
+  - color_field
+  - datetime
+  - field
+  - link
+  - menu_ui
+  - node
+  - path
+  - taxonomy
+  - text
+  - user

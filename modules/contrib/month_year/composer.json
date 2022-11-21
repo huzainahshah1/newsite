@@ -1,0 +1,16 @@
+{
+    "name": "drupal/month_year",
+    "type": "drupal-module",
+    "description": "Provide Month-Year field type",
+    "keywords": ["Drupal"],
+    "license": "GPL-2.0+",
+    "homepage": "https://www.drupal.org/project/month_year",
+    "minimum-stability": "dev",
+    "support": {
+        "issues": "https://www.drupal.org/project/issues/month_year",
+        "source": "http://cgit.drupalcode.org/month_year"
+    },
+    "require": {
+        "drupal/jquery_ui_datepicker": "^1.0"
+    }
+}

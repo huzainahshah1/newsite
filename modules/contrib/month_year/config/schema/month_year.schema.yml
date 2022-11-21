@@ -1,0 +1,15 @@
+field.widget.settings.month_year_widget:
+  type: mapping
+  label: 'Month Year widget settings'
+  mapping:
+    min_year:
+      type: integer
+      label: 'Start year'
+    adjustment:
+      type: integer
+      label: 'Adjustment'
+    disabled_months:
+      type: sequence
+      label: 'Disabled months'
+      sequence:
+        type: integer

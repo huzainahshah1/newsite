@@ -1,0 +1,7 @@
+langcode: en
+status: true
+dependencies: {  }
+name: my_test_vocab
+vid: my_test_vocab
+description: 'test vocab'
+weight: 0

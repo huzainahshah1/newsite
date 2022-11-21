@@ -1,0 +1,7 @@
+langcode: en
+status: true
+dependencies: {  }
+name: 'Country Language'
+vid: country_language
+description: ''
+weight: 0
